@@ -1,11 +1,11 @@
 import "./App.css";
+import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="React weather app">
       <div className="container">
-        <h1>React weather app</h1>
-        <div className="btn btn-primary">Hello</div>
+        <Weather />
         <footer>
           This project is coded by{" "}
           <a
