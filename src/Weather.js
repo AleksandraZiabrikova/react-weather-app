@@ -30,17 +30,16 @@ export default function Weather() {
       </ul>
       <div className="row mt-3">
         <div className="col-6">
-          <div className="clearfix">
-            <img
-              src="//ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-              alt="Partly cloudy"
-            />
+          <img
+            src="//ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+            alt="Partly cloudy"
+          />
 
-            <span className="temperature">13</span>
+          <span className="temperature">13</span>
 
-            <span className="unit">°C</span>
-          </div>
+          <span className="unit">°C</span>
         </div>
+
         <div className="col-6">
           <ul>
             <li>Percipitation: 2%</li>

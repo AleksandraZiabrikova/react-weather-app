@@ -26,23 +26,7 @@
   list-style: none;
 }
 
-.Weather .temperature {
-  font-weight: 400;
-
-  font-size: 48px;
-  line-height: 56px;
-  color: #202124;
-  letter-spacing: normal;
-  font-family: Google Sans, arial, sans-serif;
-
-  display: inline;
-}
-
 .Weather .unit {
-  --center-width: 652px;
-  --rhs-width: 369px;
-  --center-abs-margin: calc((100vw - 1065px) / 2);
-  --rhs-margin: 44px;
   font-family: arial, sans-serif;
   font-weight: normal;
   color: #202124;
@@ -50,11 +34,21 @@
   line-height: 1;
   display: inline;
   position: relative;
-  top: -24px;
+  top: -12px;
+}
+.Weather .temperature {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 64px;
+
+  color: #202124;
+  position: relative;
+  top: 16px;
 }
 
 .Weather img {
   height: 64px;
+  width: 64px;
   margin-right: 10px;
   display: inline-block;
 }
