@@ -26,7 +26,7 @@
   list-style: none;
 }
 
-.Weather .unit {
+.WeatherTemperature .unit {
   font-family: arial, sans-serif;
   font-weight: normal;
   color: #202124;
@@ -34,7 +34,7 @@
   line-height: 1;
   display: inline;
   position: relative;
-  top: 10px;
+  top: -24px;
 }
 .Weather .temperature {
   font-weight: 400;
